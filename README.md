@@ -1,6 +1,6 @@
 # Optimizing IT Support Team Performance Using Analytics
 
-# Table of Contents
+# 📑Table of Contents
  1. Project Overview
  2. Problem Statement
  3. Dataset Description
