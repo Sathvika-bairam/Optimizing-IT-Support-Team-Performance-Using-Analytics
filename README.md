@@ -6,4 +6,4 @@ The dataset contains 100 rows and 11 columns of IT support tickets records colle
 This project mainly focuses on identifying the types of tickets raised, which issues are most frequently repeated, and how much time agents take to resolve them. This analysis helps understand patterns in support requests to enhance overall end-user experience.
 # Tools used
 Python - Used for data cleaning
---- Pandas -  Used for loading and handling the datasets
+*** Pandas -  Used for loading and handling the datasets
