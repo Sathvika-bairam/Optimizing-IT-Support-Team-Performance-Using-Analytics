@@ -1,5 +1,9 @@
 # Optimizing IT Support Team Performance Using Analytics
-It focuses on improving IT support team efficiency and service quality using data analytics. It Analyzes ticket data to track key metrics such as Resolution rate, Tickect Volume and Customer Satisfaction. Data-driven insights enable faster issue resolution. The goal is to enhance overall IT service performance and improve end-user experience. 
+
+# Problem statement  
+It focuses on improving IT support team efficiency and service quality using data analytics. It Analyzes ticket data to track key metrics
+such as Resolution rate,Tickect Volume and Customer Satisfaction. Data-driven insights enable faster issue resolution.
+The goal is to enhance overall IT service performance and improve end-user experience. 
 # Dataset Description
 The dataset contains 100 rows and 11 columns of IT support tickets records collected from Kaggle. Each record represents a support request raised by end-users include details such as ticket creation time, resolution time, ticket status and priority level. This dataset is used to analyze IT support team performance and identify areas for improving effeciency and service quality.
 # Key insights
