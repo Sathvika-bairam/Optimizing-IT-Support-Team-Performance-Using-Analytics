@@ -1,0 +1,11 @@
+First_Name	Last_Name	Phone_Number	Address	Paying_Customer	Do_Not_Contact	CustomerID
+Frodo	Baggins	1235455421	123 Shire Lane, Shire	Yes	No	1001
+Jon	Snow	8766783469	123 Dragons Road	Yes	No	1005
+Sherlock	Holmes	8766783469	98 Clue Drive	No	No	1008
+Peter	Parker	1235455421	25th Main Street, New York	Yes	No	1010
+Don	Draper	1235432345	2039 Main Street	Yes	No	1013
+Leslie	Knope	8766783469	343 City Parkway	Yes	No	1014
+Toby	Flenderson	3047622467	214 HR Avenue	No	No	1015
+Ron	Weasley	1235455421	2395 Hogwarts Avenue	No	No	1016
+Michael	Scott	1236439775	121 Paper Avenue, Pennsylvania	Yes	No	1017
+Anakin	Skywalker	8766783469	910 Tatooine Road, Tatooine	Yes	No	1020
