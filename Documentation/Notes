@@ -1,0 +1,110 @@
+# Week-1
+- Self Introduction
+-Explanation about project like Customers transaction issues that fetching customer details or  transaction of money is delay due to processing then it is a Ticket issue
+ so, Ticket is raised by Customer such as fetching amount is not convenient 
+- introduction to power bi
+  * ribbon
+  * Power Query
+  * Visual View
+  * Table View
+  * Model View
+- Extracting dataset from different websites
+- Data cleaning in power Query of Power bi
+  * Removing Duplicates
+  * In a column data is 80% then remaining is null then fill with aggregation
+  * Removing unnessary columns
+  * Standardizing each column
+  * Rearranging columns
+  * Replace values
+  * Removing White Spaces : Trim
+  * Removing Special characters : RV
+  * Delimeter :  To Split columns 
+
+# Task : Extract and Clean dataset in Power bi using Power Query
+
+
+# Week-2
+- In Second week i shown my cleaned dataset
+- Vs Code Setup and how files and folders are created
+- how to use ipynb file and what is dataframe, uses of pandas library
+   * Dataframe : is a table with rows and columns that helps us store, clean, and analyze data easily in python
+   * Pandas : to load datasets into vscode (excel , csv files) and helps to handles tables
+- commands used
+  # importing libraries
+- import pandas as pd
+  # loading dataset
+- df = df.read_csv(r"Customer_call_list.csv")
+- df
+  #drop duplicates
+- df.drop_duplicates()
+  # removing white spaces
+- df["last_name"] = df["last_name"].str.strip()
+  # removing Special characters
+- df["last_name"] = df["last_name"].str.strip("/._")
+  # Replace Values
+- df["Paying Customer"] = df["Paying Customer"].str.replace("Yes","Y")
+- df["Paying Customer"] = df["Paying Customer"].str.replace("No","N")
+- df["Do_Not_Contact"] = df["Do_Not_Contact"].str.replace("Yes","Y")
+- df["Do_Not_Contact"] = df["Do_Not_Contact"].str.replace("No","N")
+- df
+  # removing unnecessary rows
+- df=df[df["Do_Not_Contact"] !="Y"]
+- df
+  # droping unnecessary columns
+- df = df.drop(columns=["Not_Useful_Column"])
+- df = df.drop(columns = ["Unnamed: 8"])
+- df = df.drop(columns = ["Unnamed: 9"])
+- df
+  # fill null with empty values
+- df=df.fillna("")
+- df
+  # remove empty values rows of phone number
+- df= df[df["Phone_Number"] !=""]
+- df
+  # remove empty values rows of last name
+- df= df[df["Last_Name"] !=""]
+- df
+ # reset index
+- df= df.reset_index()
+- df
+ # drop index column
+- df= df.drop(columns = ["index"])
+- df
+ # rename column
+- df = df.rename(columns={"Paying Customer":"Paying_Customer"})
+- df
+# Task : to work with customer call list dataset
+
+# Week-3
+- introduction to EDA
+   * EDA stands for Exploratory data analytics and it is a process of exploring, understanding, and summerizing
+     data before creating dashboards
+   * EDA helps to find insights, patterns, problems and stories hidden in data
+   * Without EDA : dashboards become just charts
+   * With EDA : dashboards answer business questions
+- Factors of EDA
+   * volume of data
+   * distribution of data
+   * comparison
+   * Relationships
+
+# Task : reviews
+
+# week-4 
+- Importing live data
+  * through get data - web - pasting url of dataset(basic) - then connect
+-  while import live data and getting updtes daily causing flooding to avoid this we use big Servers , google has big server
+  * w3 school dataset is public and connected with power bi
+  * nsestocks dataset this site is procted and doesnot allow tools(restrict tools like power bi, excel,bot and scrapper)
+  * But to access we need to have either API key or Organisation account
+- API End Point : is a place(URL) where a computer goes to get data
+  * website for humans
+  * API endpoint for computer
+- Zendesk is customer support tool
+  companies use it to: 
+  * collect customer problems(ticket)
+  * Assign ticket to support agents
+  * Track status(pending,sloved)
+  * measure performance(response time)
+ - example: order is late - create a ticket in zendesk
+ - creating the Github repository
