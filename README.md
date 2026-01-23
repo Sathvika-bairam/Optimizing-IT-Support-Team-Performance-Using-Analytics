@@ -1,5 +1,15 @@
 # Optimizing IT Support Team Performance Using Analytics
 
+# Table of Contents
+ 1. Project Overview
+ 2. Problem Statement
+ 3. Dataset Description
+ 4. KPIs & Metrics
+ 5. Analysis Approach
+ 6. Key Insights
+ 7. Recommendations
+ 8. Tools & Technologies Used
+ 9. Conclusion
 # Problem statement  
 It focuses on improving IT support team efficiency and service quality using data analytics. It Analyzes ticket data to track key metrics
 such as Resolution rate,Tickect Volume and Customer Satisfaction. Data-driven insights enable faster issue resolution.
