@@ -75,6 +75,7 @@
 - df
 # Task : to work with customer call list dataset
 
+
 # Week-3
 - introduction to EDA
    * EDA stands for Exploratory data analytics and it is a process of exploring, understanding, and summerizing
@@ -88,9 +89,8 @@
    * comparison
    * Relationships
 - Framing questions by analysing dataset for dashboards
-
-
 # Task : reviews
+
 
 # week-4 
 - Importing live data
@@ -110,3 +110,4 @@
   * measure performance(response time)
  - example: order is late - create a ticket in zendesk
  - creating the Github repository
+# Task : creating repository
