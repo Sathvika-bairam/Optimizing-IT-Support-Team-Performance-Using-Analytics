@@ -23,7 +23,7 @@ IT support teams often handle a large volume of tickets with varying priorities 
 2. Identify delays and recurring issues
 3. Optimize resource allocation
 4. Improve customer satisfaction
-This project addresses these challenges by using analytics to monitor performance, uncover patterns, and support better decision-making.
+ This project addresses these challenges by using analytics to monitor performance, uncover patterns, and support better decision-making.
 
 # 📁 Dataset Description
 The dataset contains 100 rows and 11 columns of IT support tickets records collected from Kaggle. Each record represents a support request raised 
