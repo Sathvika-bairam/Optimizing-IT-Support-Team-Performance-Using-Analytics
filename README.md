@@ -63,8 +63,7 @@ by end-users include details such as ticket creation time, resolution time, tick
 - How much time agents take to resolve them.
 - A small number of agents handle a majority of tickets.
   
-  This analysis helps understand patterns in support requests  
-  to enhance overall end-user experience.
+This analysis helps understand patterns in support requests to enhance overall end-user experience.
   
 # 👉 Recomendations
 
