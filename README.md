@@ -19,11 +19,12 @@
 
 # ❔ Problem statement  
 IT support teams often handle a large volume of tickets with varying priorities and complexities. Without proper analysis, it becomes difficult to:
-1. Measure team performance accurately
-2. Identify delays and recurring issues
-3. Optimize resource allocation
-4. Improve customer satisfaction
- This project addresses these challenges by using analytics to monitor performance, uncover patterns, and support better decision-making.
+1. Measure team performance accurately.
+2. Identify delays and recurring issues.
+3. Optimize resource allocation.
+4. Improve customer satisfaction.
+   
+This project addresses these challenges by using analytics to monitor performance, uncover patterns, and support better decision-making.
 
 # 📁 Dataset Description
 The dataset contains 100 rows and 11 columns of IT support tickets records collected from Kaggle. Each record represents a support request raised 
@@ -44,10 +45,10 @@ by end-users include details such as ticket creation time, resolution time, tick
 
 # 🎞️ Analysis Approach
 ---
-- Data cleaning and preprocessing
-- Handling missing and inconsistent values
-- Removing white spaces and special characters
-- Exploratory Data Analysis (EDA)
+- Data cleaning and preprocessing.
+- Handling missing and inconsistent values.
+- Removing white spaces and special characters.
+- Exploratory Data Analysis (EDA).
 
 # 📊 Dashboards
 ---
@@ -61,6 +62,7 @@ by end-users include details such as ticket creation time, resolution time, tick
 - Which Ticket issues are most frequently repeated.
 - How much time agents take to resolve them.
 - A small number of agents handle a majority of tickets.
+  
   This analysis helps understand patterns in support requests  
   to enhance overall end-user experience.
   
