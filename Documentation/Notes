@@ -111,3 +111,36 @@
  - example: order is late - create a ticket in zendesk
  - creating the Github repository
 # Task : creating repository
+
+
+# week-5
+- What is KPI
+  KPI stands for key performance indicator and it is a measurable value that tells us how somthing well performed compared to a goal 
+-The different datatypes available in dataset, those are
+*continuous data 
+*categorical data
+*time based data
+- continuous data :  is a numerical data where we can perform mathematical operations like meann ,median and mode etc...
+  and also to visualize this plots we use cards and histogram plot , cards shows numerical value and histogram wrok on ranges
+- categorical data : is a data thta divides into groups like males and females of gender data
+and also to visualize this data we use bar plot and pie chart , bar plot is used to compare between categories and pie chart is
+used to represent the categories in percentages.
+- time based data : time based data means values varying over time or duration example gold price may decreases or increases completely 
+varying day by day . And to visualize this plot we use line plot because line plot implies a sequence.
+-we learnt what is primary and foreign key 
+* primary key : it is a column in table that contains unique values and doesnot contain null and duplicate values
+* foreign key : it is a column in table that refer to primary key of another table
+- we understand what is fact and dimension table 
+* fact table : it contains the main metrics of data
+* dimension table : it contains complete details of customers and produts
+* next we establish connnection between tables  through primary key and observed relation between table as
+ * 1 to many(*)
+ * many to 1
+- next we took sales example in powerbi 
+* we observed how tables are connnected to each other and relation among the tables.
+
+Task : find out which is primary and foreign key in fact and dimension table
+   -  A fact table doesnot contain single primary key, instead we use composite primary key , it is combination of
+      both customerid and productid.
+   -  Here customerid and productid  are columns in fact table refering to customerid of dimension table ,productid of
+      dimension table with respectively.
