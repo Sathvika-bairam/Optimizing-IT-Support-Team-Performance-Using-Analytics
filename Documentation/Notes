@@ -116,11 +116,11 @@
 # week-5
 - What is KPI
   KPI stands for key performance indicator and it is a measurable value that tells us how somthing well performed compared to a goal 
--The different datatypes available in dataset, those are
+- what are the different data available in datasets, those are
 *continuous data 
 *categorical data
 *time based data
-- continuous data :  is a numerical data where we can perform mathematical operations like meann ,median and mode etc...
+- continuous data :  is a numerical data where we can perform mathematical operations like mean ,median and mode etc...
   and also to visualize this plots we use cards and histogram plot , cards shows numerical value and histogram wrok on ranges
 - categorical data : is a data thta divides into groups like males and females of gender data
 and also to visualize this data we use bar plot and pie chart , bar plot is used to compare between categories and pie chart is
