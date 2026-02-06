@@ -13,7 +13,7 @@ columns, modification of values.
  Revenue: All the money company earns by selling.
  Profit: Money left after paying all expenses
 - Base Measure: It is a measure created using column from table
-- Composite measure: it is combination of two measures.
+- Composite measure: it is a column created using combining the two measures columns.
 - filter is a Dax function that returns a table with rows if given condition is satisfied. 
    filter is used inside CALCULATE() to apply row level conditions for result
 - Formula :Total profits from manager = 
