@@ -1,0 +1,30 @@
+# Week- 6
+- what is DAX?
+ DAX stands for data analysis expression and it is used to create Measures, Calculated Columns and Tables
+- fact table mean : it contains measurable data
+In powerbi summation stands for measurable column
+- From sales dataset we learned DAX formula's:
+    Total Profit = Sum(FactSales[Profit])
+- Power bi has in built functions those are sum, avg, std etc these are implict functions and we can perform 
+operations by using that function but problem is implict function don't have control over data
+- Explict functions : the columns that are created by using DAX formulas and by using Dax formula we can change
+columns, modification of values.
+-differnce between Revenue and Profit 
+ Revenue: All the money company earns by selling.
+ Profit: Money left after paying all expenses
+- Base Measure: It is a measure created using column from table
+- Composite measure: it is combination of two measures.
+- filter is a Dax function that returns a table with rows if given condition is satisfied. 
+   filter is used inside CALCULATE() to apply row level conditions for result
+- Formula :Total profits from manager = 
+                         CALCULATE(
+                         [Total Profit],
+                         DimEmployee[Role] = 'manager'
+                         DimDate[year] = 2018
+                         )
+- If Condition Formula:
+            Target = if(
+                     [Total Revenue] > 2000000,
+                     "Target Reached",
+                     "failed"
+                      )
