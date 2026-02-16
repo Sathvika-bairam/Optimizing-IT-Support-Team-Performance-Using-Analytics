@@ -46,7 +46,7 @@
      # drop index column
    - df= df.drop(columns = ["index"])
    - df
- # rename column
-- df = df.rename(columns={"Paying Customer":"Paying_Customer"})
-- df
-# Task : to work with customer call list dataset
+     # rename column
+   - df = df.rename(columns={"Paying Customer":"Paying_Customer"})
+   - df
+# Task : to work with customer call list dataset.
