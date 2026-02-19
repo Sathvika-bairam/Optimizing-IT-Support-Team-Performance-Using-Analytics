@@ -51,7 +51,7 @@ key attributes are :
 # 📊 Dashboards
 ---
 - title:
-- purpose:
+- insights:
 
 
 # 📍 Key insights
