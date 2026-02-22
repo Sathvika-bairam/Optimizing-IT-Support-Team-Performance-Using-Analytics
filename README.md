@@ -1,4 +1,4 @@
-![dashboard](https://github.com/user-attachments/assets/bd290b99-d350-4493-80d4-8e7f36663ae1)# Optimizing IT Support Team Performance Using Analytics
+
 
 
 # 📌 Project Overview
@@ -50,10 +50,16 @@ key attributes are :
 
 # 📊 Dashboards
 ---
-- title:
-- insights:
+- Title: OPTIMIZING IT SUPPORT TEAM USING PERFORMANCE USING ANALYTICS
 
 
+![dashboard](https://github.com/user-attachments/assets/b052630c-3fe9-4cdf-a4fa-b4b619ea24a2)
+
+- Recommendations:
+- To improve IT support team efficiency:
+- provide more training for agents to solve security related issues
+- give more priority to solving of high priority tickects
+- Allocate more agents across regional wise to workloads
 
 # 📍 Key insights
 ---
