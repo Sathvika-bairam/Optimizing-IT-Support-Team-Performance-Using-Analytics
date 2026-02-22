@@ -36,7 +36,7 @@ key attributes are :
 - Status-wise Ticket Count
 - Average Resolution time
 - Priority-wise Distribution
-- Country-wise Ticket Volume
+- Category-wise Ticket Volume
 
 
 
