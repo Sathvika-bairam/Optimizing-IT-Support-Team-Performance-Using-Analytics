@@ -1,4 +1,4 @@
-# Optimizing IT Support Team Performance Using Analytics
+![dashboard](https://github.com/user-attachments/assets/bd290b99-d350-4493-80d4-8e7f36663ae1)# Optimizing IT Support Team Performance Using Analytics
 
 
 # 📌 Project Overview
@@ -52,6 +52,7 @@ key attributes are :
 ---
 - title:
 - insights:
+
 
 
 # 📍 Key insights
