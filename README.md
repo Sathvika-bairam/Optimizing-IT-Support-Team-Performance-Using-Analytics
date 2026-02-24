@@ -19,7 +19,7 @@ This project aims to solve these challenges using data analytics and visualizati
 
 # 📁 Dataset Description
 ---
-The dataset contains 50 rows and 7 columns of IT support tickets and it a API data. Each record represents a support request raised 
+The dataset contains 50 rows and 7 columns of IT support tickets and it is a API data. Each record represents a support request raised 
 by end-users include details such as the ticket creation time, resolution time, ticket status and priority level.
 key attributes are :
 - Ticket ID
@@ -33,10 +33,10 @@ key attributes are :
 # 📉 KPIs & Metrics
 ---
 - Total Tickets Count
-- Status-wise Ticket Count
-- Average Resolution time
-- Priority-wise Distribution
-- Category-wise Ticket Volume
+- Open tickets
+- Pending tickets
+- Solved tickets
+- Average Resolution time 
 
 
 
@@ -51,10 +51,6 @@ key attributes are :
 # 📊 Dashboards
 ---
 - Title: OPTIMIZING IT SUPPORT TEAM USING PERFORMANCE USING ANALYTICS
-
-
-![dashboard](https://github.com/user-attachments/assets/b052630c-3fe9-4cdf-a4fa-b4b619ea24a2)
-
 - Recommendations:
 - To improve IT support team efficiency:
 - provide more training for agents to solve security related issues
@@ -63,7 +59,7 @@ key attributes are :
 
 # 📍 Key insights
 ---
-- Login Issues and Server Down incidents contribute significantly to total tickets.
+- Security related tickets are in pending and takes more average resolution time
 - Certain countries generate higher ticket volumes, indicating workload imbalance.
 - High and Urgent priority tickets requries faster escalation.
 - Open and Pending tickets represent operational backlog.
