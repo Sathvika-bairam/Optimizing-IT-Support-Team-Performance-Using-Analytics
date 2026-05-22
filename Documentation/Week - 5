@@ -9,9 +9,9 @@
  - Categorical data
  - Time Based data
  - Continuous Data :  
-   Is a numerical data where we can perform mathematical operations like mean ,median and mode etc...
+   It is a numerical data where we can perform mathematical operations like mean ,median and mode etc...
    and also to Visualize this data we use Cards and Histogram plot , Cards shows numerical value and
-   Histogram wrok on ranges.
+   Histogram wroks on ranges.
  - Categorical Data :
    Is a data that divides data into groups like males and females of gender data and also to visualize
    this data we use Bar plot and Pie chart , Bar plot is used to compare between categories 
@@ -26,7 +26,7 @@
  - Primary key : 
    It is a column in table that contains unique values and doesnot contain null and duplicate values.
  - Foreign key : 
-   It is a column in table that refer to primary key of another table.
+   It is a column in the table that refer to primary key of another table.
 
 
 * What is fact and dimension table : 
