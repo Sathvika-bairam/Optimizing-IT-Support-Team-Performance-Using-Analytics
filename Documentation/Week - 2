@@ -9,7 +9,7 @@
      # Importing libraries
    - import pandas as pd
      # Loading dataset
-   - df = df.read_csv(r"Customer_call_list.csv")
+   - df = pd.read_csv(r"Customer_call_list.csv")
    - df
      # Drop duplicates
    - df.drop_duplicates()
